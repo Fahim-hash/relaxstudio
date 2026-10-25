@@ -3,10 +3,10 @@ import "./globals.css";
 import { SiteHeader } from "./components/site-header";
 import { SiteFooter } from "./components/site-footer";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://relaxstudio.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : undefined);
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
   title: {
     default: "Relax Studio® — Creative that moves brands",
     template: "%s | Relax Studio®",
