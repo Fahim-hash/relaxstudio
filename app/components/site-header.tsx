@@ -31,7 +31,7 @@ export function SiteHeader() {
         <span className="brand-mark">R<span>®</span></span>
         <span className="brand-name">RELAX<br />STUDIO</span>
       </Link>
-      <nav className={`desktop-nav ${open ? "is-open" : ""}`} aria-label="Main navigation">
+      <nav id="site-navigation" className={`desktop-nav ${open ? "is-open" : ""}`} aria-label="Main navigation">
         {navigation.map((item) => (
           <Link href={item.href} key={item.href} onClick={() => setOpen(false)}>{item.label}</Link>
         ))}
