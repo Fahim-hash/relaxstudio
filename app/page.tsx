@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ContactForm } from "./components/contact-form";
+import { ThreeDObject } from "./components/three-d-object";
 
 export const metadata: Metadata = {
   title: "Creative Studio for Design, Motion & Digital",
@@ -36,11 +37,9 @@ export default function HomePage() {
             <Link className="round-link" href="#services" aria-label="Explore our services">↓</Link>
           </div>
         </div>
-        <div className="hero-art" role="img" aria-label="Abstract chrome sculpture rendered in silver tones">
+        <div className="hero-art">
           <span className="art-label label-top">FORM / 001</span>
-          <div className="chrome-orb orb-one" /><div className="chrome-orb orb-two" />
-          <div className="chrome-ribbon" /><div className="art-ring" />
-          <span className="art-cross" aria-hidden="true">✳</span>
+          <ThreeDObject />
           <span className="art-label label-bottom">IDEAS IN MOTION — SINCE DAY ONE</span>
         </div>
         <div className="hero-foot"><span>SCROLL TO EXPLORE</span><span>01 — 04</span></div>
