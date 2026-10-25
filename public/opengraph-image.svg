@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".24" stop-color="#a9aca9"/><stop offset=".42" stop-color="#f9faf8"/><stop offset=".63" stop-color="#777b77"/><stop offset=".82" stop-color="#e4e6e3"/><stop offset="1" stop-color="#fff"/></linearGradient><radialGradient id="bg"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8e9e6"/></radialGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="#747873" font-family="Arial,sans-serif" font-size="14" letter-spacing="3"><text x="74" y="70">INDEPENDENT CREATIVE STUDIO</text><text x="1126" y="70" text-anchor="end">DESIGN · MOTION · DIGITAL</text></g>
+  <g font-family="Arial,sans-serif" font-weight="600" font-size="126" letter-spacing="-9" fill="#171817"><text x="72" y="280">Make your</text></g>
+  <text x="72" y="414" font-family="Arial,sans-serif" font-weight="600" font-size="150" letter-spacing="-10" fill="url(#metal)" stroke="#999d99" stroke-width="1">brand move.</text>
+  <circle cx="970" cy="450" r="104" fill="url(#metal)" stroke="#aeb1ad" stroke-width="2"/>
+  <ellipse cx="970" cy="450" rx="156" ry="57" fill="none" stroke="#aeb1ad" stroke-width="2" transform="rotate(-26 970 450)"/>
+  <path d="M826 454c48-89 111-115 175-73 47 31 77 63 120 39" fill="none" stroke="url(#metal)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M74 532H1126" stroke="#d1d3cf"/><text x="74" y="572" font-family="Arial,sans-serif" font-size="16" letter-spacing="4" fill="#5f625e">RELAX STUDIO®</text><text x="1126" y="572" text-anchor="end" font-family="Arial,sans-serif" font-size="14" letter-spacing="2" fill="#5f625e">CREATIVE WITH INTENTION.</text>
+</svg>
